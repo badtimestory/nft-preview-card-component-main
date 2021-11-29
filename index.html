@@ -9,134 +9,14 @@
   <title>Frontend Mentor | NFT preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
-
-    .attribution 
-    { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-    
-    .card-box
-    {
-      width: 350px;
-      height: 600px;
-      border-radius: 10px;
-      background-color: hsl(216, 50%, 16%);
-      margin: auto;
-      /* box-shadow: 0px 0px 0px 5px gray */
-    }
-    .main-image
-    {
-      position: relative;
-      display: inline-block;
-    }
-    #card-img
-    {
-      position: block;
-      width: 300px;
-      height: 300px;
-      margin-top: 24px;
-      margin-left: 24px;
-      margin-right: 24px;
-      border-radius: 10px;
-    }
-    #view-icon
-    {
-      position: absolute;
-      display: none;
-      top: 0;
-      left: 0;
-      margin-top: 150px;
-      margin-left: 150px;
-      margin-right: 24px;
-      border-radius: 10px;
-      background: hsl(178, 100%, 50%);
-    }
-    #view-icon:hover
-    {
-      display: inline-block;
-      opacity: 1;
-    }
-    .card-text
-    {
-      font-family: 'Outfit', sans-serif;
-      color: hsl(215, 51%, 70%);
-      margin: 0 25px;
-    }
-    #user-title
-    {
-      font-family: 'Outfit', sans-serif;
-      color: hsl(0, 0%, 100%);
-      font-weight: 600;
-      font-size: 20px;
-      margin-top: 30px;
-    }
-    #user-title:hover
-    {
-      color: hsl(178, 100%, 50%);
-    }
-    #user-main-text
-    {
-      font-weight: 300;
-      font-size: 18px;
-      margin-top: 25px;
-      color: hsl(215, 51%, 70%);
-    }
-    #state-grid
-    {
-      display: grid;
-      grid-auto-flow: column;
-      grid-template-columns: 1fr;
-      margin-top: 35px;
-    }
-    #state-eth
-    {
-      font-size: 15px;
-      font-weight: 400px;
-      color: hsl(178, 100%, 50%);
-    }
-    #state-eth img 
-    {
-      vertical-align: middle;
-      padding-right: 5px;
-    }
-    #state-day img
-    {
-      vertical-align: middle;
-      padding-right: 5px;
-    }
-    #border-line
-    {
-      border-bottom: 1px solid hsl(215, 32%, 27%);
-      margin-top: 25px;
-    }
-    #user-avatar
-    {
-      width: 32px;
-      height: 32px;
-      vertical-align: middle;
-      margin-right: 5px;
-    }
-    #user-creation
-    {
-      margin-top: 15px;
-    }
-    #user-name
-    {
-      color: hsl(0, 0%, 100%);
-    }
-    #user-name:hover
-    {
-      color: hsl(178, 100%, 50%);
-    }
-  </style>
+  <link rel="stylesheet" href="css/style.css">
 </head>
-<body style="background-color: hsl(217, 54%, 11%);">
+<body>
   <!-- Card -->
   <div class="card-box">
       <div class="main-image">
         <img src="images/image-equilibrium.jpg" id="card-img" alt="image";>
-        <span><img src="images/icon-view.svg" id="view-icon"></span>
+        <span><img src="images/icon-view.svg" id="view-icon" alt=""></span>
       </div>
     <!-- Card Main text -->
     <div class="card-text">
@@ -144,13 +24,13 @@
       <div id="user-main-text">Our Equilibrium collection promotes balance and calm.</div>
       <!--ethereum & days -->
       <div id="state-grid">
-        <div id="state-eth"><img src="images/icon-ethereum.svg" >0.041 ETH</div>
-        <div id="state-day"><img src="images/icon-clock.svg">3 days left</div>
+        <div id="state-eth"><img src="images/icon-ethereum.svg" alt="">0.041 ETH</div>
+        <div id="state-day"><img src="images/icon-clock.svg" alt="">3 days left</div>
       </div>
       <div id="border-line"></div>
       <!-- user infomation -->
       <div id="user-creation">
-        <img src="images/image-avatar.png" id="user-avatar">Creation of 
+        <img src="images/image-avatar.png" id="user-avatar" alt="">Creation of 
         <span id="user-name">Jules Wyvern</span>
       </div>   
   </div>

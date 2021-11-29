@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+}
+.card-box {
+  width: 350px;
+  height: 600px;
+  border-radius: 10px;
+  background-color: hsl(216, 50%, 16%);
+  margin: auto;
+  /* box-shadow: 0px 0px 0px 5px gray */
+}
+.main-image {
+  position: relative;
+  display: inline-block;
+}
+#card-img {
+  position: block;
+  width: 300px;
+  height: 300px;
+  margin-top: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+  border-radius: 10px;
+}
+#view-icon {
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 0;
+  margin-top: 150px;
+  margin-left: 150px;
+  margin-right: 24px;
+  border-radius: 10px;
+  background: hsl(178, 100%, 50%);
+}
+#view-icon:hover {
+  display: inline-block;
+  opacity: 1;
+}
+.card-text {
+  font-family: "Outfit", sans-serif;
+  color: hsl(215, 51%, 70%);
+  margin: 0 25px;
+}
+#user-title {
+  font-family: "Outfit", sans-serif;
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 30px;
+}
+#user-title:hover {
+  color: hsl(178, 100%, 50%);
+}
+#user-main-text {
+  font-weight: 300;
+  font-size: 18px;
+  margin-top: 25px;
+  color: hsl(215, 51%, 70%);
+}
+#state-grid {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 1fr;
+  margin-top: 35px;
+}
+#state-eth {
+  font-size: 15px;
+  font-weight: 400px;
+  color: hsl(178, 100%, 50%);
+}
+#state-eth img {
+  vertical-align: middle;
+  padding-right: 5px;
+}
+#state-day img {
+  vertical-align: middle;
+  padding-right: 5px;
+}
+#border-line {
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+  margin-top: 25px;
+}
+#user-avatar {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+#user-creation {
+  margin-top: 15px;
+}
+#user-name {
+  color: hsl(0, 0%, 100%);
+}
+#user-name:hover {
+  color: hsl(178, 100%, 50%);
+}
